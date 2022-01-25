@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  test:
+    network_mode: host
+    image: robot-docker-bp
+    shm_size: "256M"
+    environment:
+        USERNAME: haiva
+    volumes: [
+      "./tests/resources:/resources",
+      "./tests/suites:/suites",
+      "./tests/scripts:/scripts",
+      "./tests/reports:/reports"
+    ]
+
