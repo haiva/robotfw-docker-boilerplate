@@ -1,4 +1,6 @@
 Modifying and testing the tests locally with Robot Framework:
+* Install Robot Framework using 'pip install robotframework'
+* Install Requests libraray using 'pip install robotframework-requests'
 * Keywords and other resources are in tests\resources
 * Test suites and test cases are in tests\suites
 * Test a single test using 'robot --outputdir reports -t "Get Request Test Website" suites'
