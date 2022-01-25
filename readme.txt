@@ -7,5 +7,6 @@ Modifying and testing the tests locally with Robot Framework:
 * Test all tests using 'robot --outputdir reports suites'
 
 Running the tests using a docker image
+* Get started with docker 'https://docs.docker.com/get-started/'
 * Buid a docker image with "docker build -f ./Dockerfile -t robot-docker-bp ."
 * Use docker-compose to run all tests using 'docker-compose up'
